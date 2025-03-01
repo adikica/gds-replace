@@ -43,7 +43,7 @@ Q: Which columns are excluded from the search?
 A: The plugin skips columns named url, guid, slug, filename, source_url, post_name, option_value, package, real_path, path, wordpress_path, meta_value, user_nicename, username, name as well as any tables with names starting with your backup prefix (e.g., wp_posts_backup).
 
 Q: Is mass replace safe to use?
-A: Yes, the plugin creates a backup of your posts table before performing a mass replace, ensuring you can revert if necessary.
+A: Yes and No , the plugin creates a backup of your posts table before performing a mass replace, ensuring you can revert if necessary but still i can't say its safe "YOU HAVE TO MANUALLY CHECK BACKUP".
 
 Q: Can I use this plugin on a production site?
 A: This tool is designed for developers. While it is safe when used correctly, always test on a staging environment first, especially when performing mass operations.
